@@ -1,0 +1,123 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.container span{
+    display: none;
+    position: absolute;
+    left: 5%;
+    top: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: 40%;
+    margin: 5% auto;
+    /* border: thick solid green; */
+    position: relative;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.logo{
+    width: 64px;
+    align-self: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.heading p{
+    color: #4a4a67;
+}
+
+.forms{
+    border: thin solid black;
+    width: 100%;
+}
+input{
+    width: 90%;
+    margin-top: 7%; 
+    padding-block: 3%;
+    border: thin solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.form button{
+    width: 90%;
+    background-color: #f8982d;
+    color: white;
+    padding-block: 3%;
+    margin-top: 7%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form p{
+    font-size: 12px;
+    margin: 1%;
+}
+.form a{
+    color: #f8982d;
+}
+
+.buttons{
+    width: 100%;  
+
+}
+
+.fb{
+    width: 90%;
+    background-color: #1877f2;
+    color: white;
+    padding-block: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing:1px;
+}
+
+.google{
+    width: 90%;
+    background-color: white;
+    color: black;
+    padding-block: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    border: thin solid black;
+    letter-spacing:1px;
+}
+
+
+
+.footer p{
+    width: 80%;
+    margin: 4% auto;
+    font-size: 13px;
+    padding-bottom:5% ;
+}
+
+@media (max-width:599) {
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .container span{
+        display:contents;
+    }
+}
