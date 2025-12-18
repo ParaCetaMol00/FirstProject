@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'header1 header1 header1'
+    'header2 header2 header2'
+    'header3 header3 header3'
+    'left main right'
+    'awoof awoof awoof'
+    'flashsales flashsales flashsales'
+    'pages pages pages'
+    'topsellers topsellers topsellers'
+    'sponsored sponsored sponsored'
+    'holiday holiday holiday'
+    'diageo diageo diageo'
+    'phonedeals phonedeals phonedeals'
+    'appliances appliances appliances'
+    'beauty beauty beauty'
+    'everything everything everything'
+    'tv-audio tv-audio tv-audio'
+    'recommended recommended recommended'
+    'fashion fashion fashion'
+    'text text text'
+    'logo newsletter apps'
+    'help about earn location'
+    'footer footer footer';
+}
+
+.header{
+    grid-area: header1;
+    width: 100%;
+    border: thin solid black; 
+    
+}
+.left{
+    /* grid-area: left; */
+    border: thin solid blue; 
+}
+.main{
+    /* grid-area: main; */
+    border: thin solid green; 
+}
+.right{
+    /* grid-area: right; */
+    border: thin solid red; 
+}

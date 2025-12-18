@@ -78,32 +78,50 @@ input{
 }
 
 .buttons{
-    width: 100%;  
-
+    width: 100%; 
+    
+}
+.buttons a{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing:1px;
+    width: 80%;
+    text-decoration: none;
+    margin-top: 3%;
+    letter-spacing: 1.5px;
+}
+.buttons i{
+    width: 5%;
+    margin-block: 5%;
 }
 
 .fb{
     width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
     background-color: #1877f2;
-    color: white;
-    padding-block: 3%;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing:1px;
+    
+    border-radius: 5px; 
+}
+.fb a{
+    color: white;  
 }
 
 .google{
     width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2% auto;
     background-color: white;
     color: black;
-    padding-block: 3%;
-    font-size: 16px;
-    font-weight: 600;
     border: thin solid black;
-    letter-spacing:1px;
+    border-radius: 5px;
 }
 
-
+.google a{
+    color: black;
+}
 
 .footer p{
     width: 80%;
@@ -118,6 +136,6 @@ input{
         flex-wrap: wrap;
     }
     .container span{
-        display:contents;
+        display:block;
     }
 }
