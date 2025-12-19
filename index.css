@@ -4,49 +4,185 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(./Multimedia/Images/bg.jpg);
+}
 .container{
     width: 100%;
     display: grid;
+    border: 4px solid black;
     grid-template-areas: 
-    'header1 header1 header1'
-    'header2 header2 header2'
-    'header3 header3 header3'
-    'left main right'
-    'awoof awoof awoof'
-    'flashsales flashsales flashsales'
-    'pages pages pages'
-    'topsellers topsellers topsellers'
-    'sponsored sponsored sponsored'
-    'holiday holiday holiday'
-    'diageo diageo diageo'
-    'phonedeals phonedeals phonedeals'
-    'appliances appliances appliances'
-    'beauty beauty beauty'
-    'everything everything everything'
-    'tv-audio tv-audio tv-audio'
-    'recommended recommended recommended'
-    'fashion fashion fashion'
-    'text text text'
-    'logo newsletter apps'
-    'help about earn location'
-    'footer footer footer';
+    'header1 header1 header1 header1'
+    'header2 header2 header2 header2'
+    'header3 header3 header3 header3'
+    'left main main right'
+    'awoof awoof awoof awoof'
+    'flashsales flashsales flashsales flashsales'
+    'pages pages pages pages'
+    'topsellers topsellers topsellers topsellers'
+    'sponsored sponsored sponsored sponsored'
+    'holiday holiday holiday holiday'
+    'diageo diageo diageo diageo'
+    'phonedeals phonedeals phonedeals phonedeals'
+    'appliances appliances appliances appliances'
+    'beauty beauty beauty beauty'
+    'everything everything everything everything'
+    'tv-audio tv-audio tv-audio tv-audio'
+    'recommended recommended recommended recommended'
+    'fashion fashion fashion fashion'
+   'text text text text'
+    'logo newsletter newsletter apps'
+     'help about earn location'
+     /*  */
+    'footer footer footer footer';
+    grid-template-columns: 1fr 1fr 1fr .5fr ;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.header{
+.topheader{
     grid-area: header1;
+    width: 100%;
+    border: thin solid green; 
+    
+}
+
+.secheader{
+    grid-area: header2;
     width: 100%;
     border: thin solid black; 
     
 }
+
+.thirdheader{
+    grid-area: header3;
+    width: 100%;
+    border: thin solid orange; 
+    
+}
 .left{
-    /* grid-area: left; */
+    grid-area: left;
     border: thin solid blue; 
 }
 .main{
-    /* grid-area: main; */
+    grid-area: main;
     border: thin solid green; 
 }
 .right{
-    /* grid-area: right; */
+    grid-area: right;
+    border: thin solid red; 
+}
+
+.awoof{
+    grid-area: awoof;
+    border: thin solid yellow; 
+}
+
+.flashsales{
+    grid-area: flashsales;
+    border: thin solid red; 
+}
+
+.pages{
+    grid-area: pages;
+    border: thin solid red; 
+}
+
+.topsellers{
+    grid-area: topsellers;
+    border: thin solid red; 
+}
+
+.sponsored{
+    grid-area: sponsored;
+    border: thin solid red; 
+}
+
+.holiday{
+    grid-area: holiday;
+    border: thin solid red; 
+}
+
+.diageo{
+    grid-area: diageo;
+    border: thin solid blue;
+}
+
+.phonedeals{
+grid-area: phonedeals;
+border: thin solid purple;
+}
+
+.appliances{
+grid-area: appliances;
+border: thin solid rgb(78, 180, 18);
+}
+
+.beauty{
+grid-area: beauty ;
+border: thin solid rgb(204, 16, 47);
+}
+
+.everything{
+grid-area: everything;
+border: thin solid rgb(35, 17, 199);
+}
+
+.tvandaudio{
+grid-area: tv-audio;
+border: thin solid purple;
+}
+
+.recommended{
+grid-area: recommended;
+border: thin solid purple;
+}
+
+.fashion{
+grid-area: fashion;
+border: thin solid teal;
+}
+
+.text{
+    grid-area: text;
+    border: thin solid red; 
+}
+
+.logo{
+    grid-area: logo;
+    border: thin solid red; 
+}
+
+.newsletter{
+    grid-area: newsletter;
+    border: thin solid red; 
+}
+
+.apps{
+    grid-area: apps;
+    border: thin solid red; 
+}
+
+.help{
+    grid-area: help;
+    border: thin solid red; 
+}
+
+ .about{
+    grid-area: about;
+    border: thin solid blue; 
+} 
+    
+.earn{
+    grid-area: earn;
+    border: thin solid yellow; 
+}
+    
+.location{
+    grid-area: location;
+    border: thin solid red; 
+}
+    
+.footer{
+    grid-area: footer;
     border: thin solid red; 
 }
