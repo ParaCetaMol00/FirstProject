@@ -27,18 +27,18 @@ body{
     width: 100%;
     text-decoration: none;
     color: #f68b25;
-    /* padding: 4%; */
+    /* padding: 1%; */
 }
 .section2 img{
     width: 70px;
 }
 
-.section-1{
+.section2-1{
     display: flex;
     justify-content:flex-start;
     width: 50%;
 }
-.section-1 h4{
+.section2-1 h4{
     display: inline;
 }
 .paylogo img{
@@ -47,220 +47,120 @@ body{
 }
 
 .header{
-    width: 90%;
+    width: 100%;
     border: thick solid red;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
 }
 
 .header img{
-    width: 150px;
-}
-/* .section2-1{
-    display: flex;
-} */
-/* .container{
     width: 100%;
-    display: grid;
-    border: 4px solid black;
-    grid-template-areas: 
-    'header header header header'
-    'header2 header2 header2 header2'
-    'header3 header3 header3 header3'
-    'left main main right'
-    'awoof awoof awoof awoof'
-    'flashsales flashsales flashsales flashsales'
-    'pages pages pages pages'
-    'topsellers topsellers topsellers topsellers'
-    'sponsored sponsored sponsored sponsored'
-    'holiday holiday holiday holiday'
-    'diageo diageo diageo diageo'
-    'phonedeals phonedeals phonedeals phonedeals'
-    'appliances appliances appliances appliances'
-    'beauty beauty beauty beauty'
-    'everything everything everything everything'
-    'tv-audio tv-audio tv-audio tv-audio'
-    'recommended recommended recommended recommended'
-    'fashion fashion fashion fashion'
-   'text text text text'
-    'logo newsletter newsletter apps'
-     'help about earn location'
-    'footer footer footer footer';
-    grid-template-columns: 1fr 1fr 1fr .5fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 40%;
 }
 
-.topheader{
-    grid-area: header;
-    width: 90%;
-    border: thin solid green; 
-    background-image: url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2025/0-0-1-holiday-sales/TOP-STRIP-LIVE-HOLIDAY-SALE-25.gif);
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.secheader{
-    
-    grid-area: header2;
-    width: 100%;
-    background-color: #f1f1f2;
-    border: thin solid black; 
-    margin: 0 auto;
-}
-
-.j1{
-    display: flex;
-    justify-content:space-around;
-    width: 100%;
+.headerleft{
+    width: 12%;
     
 }
-
-.j1 img{
-    width: 10px;
+.headeright{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1% 0 0 1%;
 }
-.j1 a{
+.search{
+width: 75%;
+display: flex;
+/* height: 50px; */
+/* border: thick solid red; */
+
+}
+.lens{
+    margin-left: 18%;
+    border: thin solid #a3a3a6;
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+}
+.lens i{
+    margin-left: 2%;
+}
+input{
+    border:none;
+    width: 85%;
+    padding: 2%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.search button{
+    background-color: #f68b1e;
+    margin-left: 2%;
+    width: 15%;
+    margin-bottom: 2.5%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+select{
+    border: none;
+}
+
+.rightright{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    margin-right: 8%;
+}
+.rightright a{
+    color: #313133;
     text-decoration: none;
-    color: orange;
-} */
-
-
-/* .j1-1{
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;   
-}
-
-.j1-1 h4{
-    display: inline;
-}
-.thirdheader{
-    grid-area: header3;
-    width: 100%;
-    border: thin solid orange; 
+    font-size: 20px;
+    font-weight: 500;
     
 }
-.left{
-    grid-area: left;
-    border: thin solid blue; 
-}
-.main{
-    grid-area: main;
-    border: thin solid green; 
-}
-.right{
-    grid-area: right;
-    border: thin solid red; 
-}
 
-.awoof{
-    grid-area: awoof;
-    border: thin solid yellow; 
-}
 
-.flashsales{
-    grid-area: flashsales;
-    border: thin solid red; 
-}
+@media (max-width: 1400px) {
+    .section1 img{
+        width: 100%;
+       flex-wrap: nowrap;
+    }
 
-.pages{
-    grid-area: pages;
-    border: thin solid red; 
-}
+    .section2{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 
-.topsellers{
-    grid-area: topsellers;
-    border: thin solid red; 
-} */
+    .header{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .header img{
+        width:100%;
+        flex-wrap: nowrap;
+    }
+    .headeright{
+        width: 100%;
+        flex-wrap: nowrap;
+        
+    }
 
-/* .sponsored{
-    grid-area: sponsored;
-    border: thin solid red; 
+    .search{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .lens{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    button{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 }
-
-.holiday{
-    grid-area: holiday;
-    border: thin solid red; 
-}
-
-.diageo{
-    grid-area: diageo;
-    border: thin solid blue;
-}
-
-.phonedeals{
-grid-area: phonedeals;
-border: thin solid purple;
-}
-
-.appliances{
-grid-area: appliances;
-border: thin solid rgb(78, 180, 18);
-}
-
-.beauty{
-grid-area: beauty ;
-border: thin solid rgb(204, 16, 47);
-}
-
-.everything{
-grid-area: everything;
-border: thin solid rgb(35, 17, 199);
-}
-
-.tvandaudio{
-grid-area: tv-audio;
-border: thin solid purple;
-}
-
-.recommended{
-grid-area: recommended;
-border: thin solid purple;
-}
-
-.fashion{
-grid-area: fashion;
-border: thin solid teal;
-}
-
-.text{
-    grid-area: text;
-    border: thin solid red; 
-}
-
-.logo{
-    grid-area: logo;
-    border: thin solid red; 
-} */
-
-/* .newsletter{
-    grid-area: newsletter;
-    border: thin solid red; 
-}
-
-.apps{
-    grid-area: apps;
-    border: thin solid red; 
-}
-
-.help{
-    grid-area: help;
-    border: thin solid red; 
-}
-
- .about{
-    grid-area: about;
-    border: thin solid blue; 
-} 
-    
-.earn{
-    grid-area: earn;
-    border: thin solid yellow; 
-}
-    
-.location{
-    grid-area: location;
-    border: thin solid red; 
-}
-    
-.footer{
-    grid-area: footer;
-    border: thin solid red; 
-} */
