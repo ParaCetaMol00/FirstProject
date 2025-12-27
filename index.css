@@ -223,31 +223,24 @@ select{
 .awoof{
     border: thin solid yellow;
     width: 90%; 
-    margin: 0 auto;
+    margin: 3% auto;
     background-color: white;
     display: flex;
     border-radius: 6px;
     padding-inline: 50px;
-    
-    
+
 } 
 
 .awoof div{
-    /* background-color: red; */
-    border: thick solid white;
+    padding-inline: .5%;
 }
+
 .awoof img{
     width: 100%;
     margin: auto;
-    /* margin-top: 5%; */
-    /* margin-inline: 5%; */
     border-radius: 6px;
-    /* margin-right: 10%; */
-    /* object-fit: cover; */
-    /* object-position: center; */
-   
-    
-    
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
 }
 
 .awoof h4{
@@ -265,6 +258,170 @@ select{
 
 .flashsales{
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 3% auto;
+}
+
+.redheader{
+    display: flex;
+    justify-content: space-between;
+    border: thick solid white;
+    width: 100%;
+    border: thick solid #e61601;
+    background-color: #e61601;
+    color: white;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.products{
+    /* border: thin solid yellow; */
+    width: 100%; 
+    background-color: white;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* padding-inline: 50px; */
+
+} 
+.products div{
+    margin: 1% auto;
+    padding-inline: 1%;
+    /* border: 2px solid white; */
+}
+
+.products img{
+    width: 100%;
+    /* margin: 0 auto; */
+    border-radius: 6px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+}
+.products h4{
+    font-size: 16px;
+    color: #313133;
+    font-weight: 400;
+}
+
+.products h3{
+    font-size: 18px;
+    color: #313133;
+    line-height: 16px;
+    font-weight: 500;
+}
+.products h5{
+    font-size: 14px;
+    line-height: 14px;
+    color: #313133;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.products p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #313133;
+    font-weight: 400;
+}
+
+.products div:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+}
+
+
+.easybuy{
+    border: thick solid yellow;
+    width: 90%; 
+    margin: 3% auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    /* padding-inline: 50px; */
+} 
+.easybuy h4{
+    font-size: 16px;
+    color: #313133;
+    font-weight: 400;
+    text-align: center;
+}
+
+.easybuy div:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+}
+
+.buynow{
+    width: 100%; 
+    background-color: white;
+    display: flex;
+}
+
+.buynow div{
+    margin: 1% auto;
+    padding-inline: 1%;
+    /* border: 2px solid white; */
+}
+
+.buynow img{
+    width: 100%;
+    /* margin: 0 auto; */
+    border-radius: 6px;
+}
+.home{
+    width: 100%; 
+    background-color: white;
+    display: flex;
+}
+
+.home div{
+    margin: 1% auto;
+    padding-inline: 1%;
+    /* border: 2px solid white; */
+}
+
+.home img{
+    width: 100%;
+    /* margin: 0 auto; */
+    border-radius: 6px;
+}
+
+.orangeheader{
+    display: flex;
+    justify-content: space-between;
+    border: thick solid white;
+    width: 100%;
+    border: thick solid #ff550c;
+    background-color: #ff550c;
+    color: white;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1%;
+}
+
+.orangeheader h3{
+    font-size: 18px;
+}
+
+.sponsored{
+    display: flex;
+    justify-content: space-between;
+    border: thick solid white;
+    width: 100%;
+    border: thick solid white;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1%;
+}
+
+.sponsored h3{
+    font-size: 22px;
+    font-weight: 500;
 }
 @media (max-width: 900px) {
     .section1 img{
