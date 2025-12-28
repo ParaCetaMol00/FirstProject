@@ -119,7 +119,7 @@ select{
 }
 
 .rightright{
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
     padding-top: 1%;
@@ -133,8 +133,10 @@ select{
     
 }
 .bigcontainer{
-     background-image: url(/Multimedia/Images/bg.jpg);
-     border: thick solid white;
+    background-image: url(/Multimedia/Images/bg.jpg);
+    border: thick solid white;
+
+    
 }
 .container2{
     display: grid;
@@ -300,20 +302,20 @@ select{
     border-bottom-right-radius: none;
 }
 .products h4{
-    font-size: 16px;
+    font-size: 14px;
     color: #313133;
     font-weight: 400;
 }
 
 .products h3{
-    font-size: 18px;
+    font-size: 16px;
     color: #313133;
     line-height: 16px;
     font-weight: 500;
 }
 .products h5{
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 16px;
     color: #313133;
     font-weight: 400;
     text-decoration: line-through;
@@ -321,7 +323,7 @@ select{
 
 .products p{
     font-size: 12px;
-    line-height: 12px;
+    line-height: 14px;
     color: #313133;
     font-weight: 400;
 }
@@ -423,6 +425,65 @@ select{
     font-size: 22px;
     font-weight: 500;
 }
+
+.holiday{
+    border: thick solid yellow;
+    width: 90%; 
+    margin: 3% auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.longtext{
+    width: 90%;
+    margin: 3% auto;
+    background-color: white;
+    padding-inline: 1%;
+    border-radius: 6px;
+    color: #313133;
+}
+.longtext h1{
+    font-size: 24px;
+    padding-block: 1%;
+
+}
+.longtext a{
+    color: black;
+    font-weight: 900;
+}
+.longtext h4{
+    padding-bottom:1%;
+}
+.longtext p{
+    padding-bottom: 1%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* .totop i{
+    border: thin solid #f68b1e;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: static;
+    right: 30px;
+} */
+
+.subscribe{
+    width: 100%;
+    background-color: #313133;
+    border: thick solid red;
+}
+
+.subscribe{
+    width: 90%;
+    border: thick solid blue;
+}
+
+
 @media (max-width: 900px) {
     .section1 img{
         width: 100%;
