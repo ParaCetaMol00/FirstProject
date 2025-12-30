@@ -475,14 +475,276 @@ select{
 .subscribe{
     width: 100%;
     background-color: #313133;
-    border: thick solid red;
+    /* border: thick solid red; */
+    padding-block: 2%;
+    
 }
 
-.subscribe{
+.subs{
     width: 90%;
-    border: thick solid blue;
+    /* border: thick solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
 }
 
+.leftside{
+    width: 18%;
+    /* border: thick solid white; */
+}
+.leftside img{
+    width: 100%;
+}
+
+.newsletter{
+    width: 50%;
+    /* border: thick solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    
+}
+
+.tt{
+    color: white;
+    font-size: 12px;
+}
+
+.tt h4{
+    font-size: 13px;
+    font-weight: 700;
+   
+}
+
+.tt p{
+    font-weight: 400;
+    padding-block: 2%;
+}
+.email{
+    display: flex;
+    /* justify-content:space-evenly; */
+    width: 100%;
+    
+    
+}
+
+.mail{
+    border: thin solid white;
+    background-color: white;
+    color: #a3a3a6;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.mail i{
+    padding-left: 5%;
+    width: 10%;
+}
+.mail input{
+    width: 80%;
+    padding: 5%;
+    font-size: 16px;
+
+    
+}
+.email button{
+    border: thin solid white;
+    margin-left: 3%;
+    width: 18%;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14.4px;
+    font-style: normal;
+    background-color: transparent;
+    color: white;
+}
+
+.email button:hover{
+    border: thin solid #f68b1e;
+    color: #f68b1e;
+}
+
+.checkbox{
+    display: flex;
+    padding: 32px 0px 0px 0px;
+}
+
+
+.checkbox input{
+    width: 20px;
+    background-color: transparent;
+    color: #a3a3a6;
+}
+
+/* .checkbox input:hover{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
+
+.checkbox label{
+    color: #a3a3a6;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-left: 2%;
+
+}
+
+.newsletter a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16.8px;
+    font-weight: 400;
+    color: #F68B1E;
+    margin-left: 5.5%;
+    /* padding-bottom: 6%; */
+}
+
+.newsletter a:hover{
+    text-decoration: underline;
+}
+.downloadapps{
+    width: 30%;
+    /* border: thick solid white; */
+    color: white;
+}
+
+.jumiafreeapp{
+    display: flex;
+    width: 80%;
+    margin: 5% auto;
+    /* align-items: center; */
+}
+.jumiafreeapp img{
+    width: 40px;
+    background-color: white;
+    border-radius: 4px;
+}
+.txt{
+    padding-left: 3%;
+}
+
+.txt h4{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txt p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #F1F1F2;
+    padding-block: 3%;
+}
+.twoapps{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 7%;
+}
+.twoapps i{
+    margin-top: 35%;
+}
+
+.twoapps h6{
+    font-size: 8px;
+}
+
+.apple,.googleplay{
+    display: flex;
+    
+}
+.apple:hover{
+    color: #f68b1e;
+}
+.googleplay:hover{
+    color: orange;
+}
+.newsletter .search{
+    width: 50%;
+    display: flex;
+}
+
+.search{
+width: 75%;
+display: flex;
+/* height: 50px; */
+/* border: thick solid red; */
+
+}
+.lens{
+    margin-left: 18%;
+    border: thin solid #a3a3a6;
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+
+
+
+/* .search button{
+    background-color: #f68b1e;
+    margin-left: 2%;
+    width: 15%;
+    margin-bottom: 2.5%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+} */
+
+.container3{
+    background-color: #535357;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+    border: thick solid green;
+    margin: 0 auto;
+
+
+}
+.footer a{
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div{
+    border: thick solid white;
+}
+
+.intl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+.socials{
+    display: flex;
+}
 
 @media (max-width: 900px) {
     .section1 img{
