@@ -93,6 +93,10 @@ body{
     bottom: -20%;
 }
 
+.rightright{
+    background-color: white;
+    border-radius: 4px;
+}
 .right{
     margin: 0 0 0 5%;
     width: 100%;
@@ -110,8 +114,7 @@ body{
 
 .right2{
     width: 90%;
-    margin: 0 auto;
-    /* background-color: blue; */
+    margin: 3% auto;
 
 }
 
@@ -135,3 +138,4 @@ body{
 .right2 p{
     color: rgb(187, 183, 183);
 }
+
