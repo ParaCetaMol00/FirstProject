@@ -6,8 +6,9 @@
 }
 
 .container1{
-    background-color: #f1f1f2;
+    /* background-color: #ffb901; */
     position: relative;
+    background-color: #ff9900;
 }
 
 .section1{
@@ -68,8 +69,7 @@
 }
 
 .headerleft{
-    width: 12%;
-    
+    width: 12%; 
 }
 .headeright{
     display: flex;
@@ -101,8 +101,6 @@ input{
     font-size: 18px;
     font-weight: 400;
 }
-
-
 .search button{
     background-color: #f68b1e;
     margin-left: 2%;
@@ -133,15 +131,15 @@ select{
     
 }
 .bigcontainer{
-    /* background-image: url(/Multimedia/Images/bg.jpg); */
-    border: thick solid white;
+    background-image: url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2025/Awoof-deals/April/aotm-BG_TAKEOVER.jpg);
+    /* border: thick solid white; */
 
     
 }
 .container2{
     display: grid;
     width: 100%;
-    border: thick solid black;
+    /* border: thick solid black; */
     grid-template-areas: 
     'left main main right1'
     'left main main right2';
@@ -158,7 +156,7 @@ select{
     justify-content: space-evenly;
     margin-top: 5%;
     grid-area: left;
-    border: thin solid blue; 
+    /* border: thin solid blue;  */
     background-color: white;
     border-radius: 6px;
     margin-left:20%;
@@ -183,14 +181,10 @@ select{
     width: 100%;
     margin-left: 2%;   
 }
-
 .main img{
     width: 100%;
     border-radius: 6px;
 }
-
-
-
 .right1{
     grid-area: right1;
     margin: 5% 10% 5% 10%;
@@ -217,13 +211,13 @@ select{
 .right2 img{
     width: 80%;
     grid-area: right2;
-    border: thin solid red; 
+    /* border: thin solid red;  */
     margin-left: 10%;
     border-radius: 6px;
 }
 
 .awoof{
-    border: thin solid yellow;
+    /* border: thin solid yellow; */
     width: 90%; 
     margin: 3% auto;
     background-color: white;
@@ -232,13 +226,9 @@ select{
     padding-inline: 50px;
 
 } 
-
 .awoof div{
     padding-inline: .5%;
 }
-
-
-
 .awoof img{
     width: 100%;
     margin: auto;
@@ -262,11 +252,13 @@ select{
 
 /* Flash Sales Container */
 .flashsales {
-    margin: 20px 0;
+    width: 90%;
+    margin: 1% auto;
     background: #fff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    
 }
 
 /* Red Header */
@@ -274,8 +266,8 @@ select{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 20px;
-    background: #ff3b3b;
+    padding: 1% 2%;
+    background: #e61601;
     color: white;
 }
 
@@ -287,6 +279,7 @@ select{
 
 .redtag i {
     font-size: 1.4rem;
+    color: #ffba00;
 }
 
 .redheader h3 {
@@ -315,35 +308,36 @@ select{
     -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
 
     /* Hide scrollbar but keep scrolling functionality */
-    scrollbar-width: thin;
-    scrollbar-color: rgba(150,150,150,0.3) transparent;
+    /* scrollbar-width: thin;
+    scrollbar-color: rgba(150,150,150,0.3) transparent; */
 }
 
 .products::-webkit-scrollbar {
     height: 8px;
 }
 
-.products::-webkit-scrollbar-track {
+/* .products::-webkit-scrollbar-track {
     background: transparent;
-}
+} */
 
-.products::-webkit-scrollbar-thumb {
+/* .products::-webkit-scrollbar-thumb {
     background: rgba(150,150,150,0.5);
-    border-radius: 10px;
-}
+    border-radius: 10px; 
+}*/
 
-.products::-webkit-scrollbar-thumb:hover {
+/* .products::-webkit-scrollbar-thumb:hover {
     background: rgba(150,150,150,0.7);
-}
+} */
 
-/* Each product card */
+/*product-card (all)*/
 .products > div {
-    flex: 0 0 240px;          /* Fixed width – adjust if you want bigger/smaller cards */
+    flex: 0 0 180px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
 }
 
 .products > div:hover {
@@ -351,7 +345,7 @@ select{
     box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-/* Image */
+/*img*/
 .products img {
     width: 100%;
     height: 220px;
@@ -359,17 +353,17 @@ select{
     background: #f8f8f8;
 }
 
-/* Text content */
+/*texts*/
 .products .texts {
     padding: 12px;
 }
 
 .products h4 {
     margin: 0 0 8px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.3;
-    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #313133;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -378,25 +372,50 @@ select{
 
 .products h3 {
     margin: 0;
-    font-size: 1.15rem;
-    color: #e91e63;
-    font-weight: 700;
+    font-size: 16px;
+    color: #313133;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 .products h5 {
-    margin: 4px 0 0;
-    font-size: 0.9rem;
+    margin: 1% 0 0;
+    font-size: 12px;
     color: #999;
     text-decoration: line-through;
+    font-weight: 400;
 }
 
 .products p {
     margin: 6px 0 0;
-    font-size: 0.85rem;
-    color: #e74c3c;
-    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #313133;
+    font-weight: 400;
 }
 
+.products h6{
+    color:#f68b1e ;
+    background-color: #fef3e9;
+    position: absolute;
+    padding: 2.5%;
+    top: 4%;
+    right: 5%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+
+.texts span{
+    width: 90%;
+    height: 2%;
+    background-color: #f68b1e;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 1%; 
+    margin: 0 auto;
+}
 /* Responsive: show fewer cards on smaller screens */
 @media (max-width: 1024px) {
     .products > div {
@@ -485,6 +504,7 @@ select{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 1%;
+    
 }
 
 .orangeheader h3{
@@ -502,7 +522,7 @@ select{
     align-items: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 1%;
+    padding: 0 0 0 1.5%;
 }
 
 .sponsored h3{
