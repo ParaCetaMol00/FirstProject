@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Inter, sans-serif;
 }
 body{
     background-color: #f5f5f5;
@@ -20,7 +21,8 @@ body{
     margin-left: 3%;
 }
 .left img{
-    width: 100%;
+    width: 80%;
+    margin-top: 10%;
 }
 
 .circle{
@@ -96,6 +98,7 @@ body{
 .rightright{
     background-color: white;
     border-radius: 4px;
+    width: 95%;
 }
 .right{
     margin: 0 0 0 5%;
@@ -120,7 +123,7 @@ body{
 
 .right2 select{
     width: 100%;
-    padding: 2%;
+    padding: 3%;
     border-radius: 4px;
 }
 
@@ -136,6 +139,70 @@ body{
 }
 
 .right2 p{
-    color: rgb(187, 183, 183);
+    color: #626262;
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+    font-size: 14px;
 }
 
+.bottom{
+    width: 95%;
+}
+
+.bottom h5{
+    text-align: center;
+    padding: 2%;
+    color: #626262;
+}
+
+.bottom button{
+    width: 100%;
+    display: flex;
+    border: thin solid #3653a3;
+    color: #3653a3;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: white;
+
+}
+
+.bottom span{
+    border: 3px solid #3653a3;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.bottom h4{
+    margin: 2%;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.bottombot p{
+    width: 70%;
+    margin: 1% auto;
+    font-size: 13px;
+    text-align: center;
+}
+
+.bottombot a{
+    text-decoration: none;
+    color: #3653a3;
+}
+@media (max-width:900px) {
+    .container{
+        flex-direction: column;
+        width: 50%;
+        margin: 7% auto;
+    }
+    .left{
+        width: 100%;
+    }
+
+
+    .right{
+        width: 100%;
+        margin-top: 17%;
+    }
+}
