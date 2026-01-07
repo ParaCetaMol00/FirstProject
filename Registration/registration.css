@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    width: 40%;
+    width: 30%;
     margin: 5% auto;
     /* border: thick solid green; */
     position: relative;
@@ -47,7 +47,7 @@ h3{
     width: 100%;
 }
 input{
-    width: 90%;
+    width: 100%;
     margin-top: 7%; 
     padding-block: 3%;
     border: thin solid grey;
@@ -58,7 +58,7 @@ input{
 }
 
 .form button{
-    width: 90%;
+    width: 100%;
     background-color: #f8982d;
     color: white;
     padding-block: 3%;
@@ -81,7 +81,7 @@ input{
     width: 100%; 
     
 }
-.buttons a{
+/* .buttons a{
     font-size: 16px;
     font-weight: 600;
     letter-spacing:1px;
@@ -121,8 +121,28 @@ input{
 
 .google a{
     color: black;
+} */
+
+.login{
+    width: 100%;
 }
 
+ .opt::before,
+    .opt::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: #ddd;
+    }
+
+    .opt span {
+        padding: 0 1rem;
+    }
+.login p{
+    width: 20%;
+    color: #757575;
+
+}
 .footer p{
     width: 80%;
     margin: 4% auto;
