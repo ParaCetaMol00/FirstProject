@@ -741,7 +741,7 @@ iframe{
     font-size: 24px;
 }
 
-/* Scrollbar styling for better UX */
+
 ::-webkit-scrollbar {
     height: 0px;
     width: 0px;
